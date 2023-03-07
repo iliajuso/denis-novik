@@ -198,6 +198,7 @@ main a{
         align-items: center;  /* центрируем содержимое кнопки */
         position: fixed;
         margin-top: 64px;
+        margin-right: 10px;
         top: 20px;
         right: 20px;
         width: 26px;
