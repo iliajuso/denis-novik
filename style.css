@@ -16,6 +16,9 @@
 *{
     font-family:'Gilroy'
 }
+html{
+    scroll-behavior: smooth;
+}
 .wrapper{
     margin: 0 auto;
     overflow: hidden;
