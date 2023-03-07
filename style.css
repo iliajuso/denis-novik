@@ -189,3 +189,151 @@ main a{
       line-height: 17px;
       color: #828282;
      }
+     #menu_toggle {
+        opacity: 0;
+      }
+      /* стилизуем кнопку */
+      .menu_btn {
+        display: flex; /* используем flex для центрирования содержимого */
+        align-items: center;  /* центрируем содержимое кнопки */
+        position: fixed;
+        margin-top: 64px;
+        top: 20px;
+        right: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+      }
+      /* добавляем "гамбургер" */
+      
+    @media (max-width: 700px){
+            .main_skiils_icons{
+                flex-direction: column;
+                gap: 80px;
+            }
+    } 
+    @media (max-width: 480px){
+        .menu_btn > span,
+      .menu_btn > span::before,
+      .menu_btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #616161;
+      }
+      .menu_btn > span::before {
+        content: '';
+        top: -8px;
+      }
+      .menu_btn > span::after {
+        content: '';
+        top: 8px;
+      }
+      .menu {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        text-align: left;
+        background-color: #ffffff;
+        }
+      /* элементы меню */
+      .menu_link {
+        display: block;
+        margin-top: 66px;
+        margin-left: 29px;
+        font-size: 34px;
+        line-height: 42px;
+        
+      }
+      
+      #menu_toggle:checked ~ .menu_btn > span {
+        transform: rotate(45deg);
+      }
+      #menu_toggle:checked ~ .menu_btn > span::before {
+        top: 0;
+        transform: rotate(0);
+      }
+      #menu_toggle:checked ~ .menu_btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      #menu_toggle:checked ~ .menu {
+        visibility: visible;
+        right: 0;
+      }
+      .wrapper{
+      margin: 0 auto;
+      overflow: hidden;
+      max-width: 480px;
+      padding: 0px 30px;
+      }
+      nav{
+        border-bottom: none;
+      }
+      .header_info{
+        display: block;
+        margin: 0px;
+        }
+        .header_info p{
+            text-align: left;
+            margin-top: 23px;
+            }
+            .main_aboutMe{
+                margin-top: 83px;
+            }
+            .main_aboutMe h2{
+                padding-top: 81px;
+                }
+               
+            .main_aboutMe_info{
+                margin:30px auto 76px auto;
+            }
+
+            .main_skills{
+                margin-top:83px;
+              }
+              .main_skills h2{
+                margin-bottom:50px;
+            }
+            .main_portfolio{
+                margin-top:98px ;
+                padding-bottom: 80px;
+            }
+            .main_portfolio h2{
+                padding-top: 81px;
+            }
+            .main_portfolio_levi{
+                margin-top: 65px;
+            }
+            .main_portfolio p{
+                margin-top:35px;
+             }
+             .footer_info{
+                margin-top:82px;
+             }
+             .footer_info p{
+                margin-top: 27px;
+            }
+            button{
+                width: 316px;
+                height: 42px;
+                background-color: #000000;
+                border-radius: 50px;
+                margin-top:52px ;
+           }
+           .cotacts_icons{
+            gap:76px;
+            margin-top:48px ;
+           }
+           .footer_info p{
+            margin-top: 49px;
+}
+      
