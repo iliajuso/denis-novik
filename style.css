@@ -1,78 +1,73 @@
 @import './reset.css';
-
 @font-face {
-    font-family: "Gilroy" ;
-    src: url("fonts/gilroy-Bold.woff2"),
-    url("fonts/gilroy-Bold.woff");
-    font-weight: 700;
-    
+font-family: "Gilroy" ;
+src: url("fonts/gilroy-Bold.woff2"),
+url("fonts/gilroy-Bold.woff");
+font-weight: 700;
 }
 @font-face {
-    font-family: "Gilroy" ;
-    src: url("fonts/gilroy-Medium.woff2"),
-    url("fonts/gilroy-Medium.woff");
-    font-weight: 600;
-   }
+font-family: "Gilroy" ;
+src: url("fonts/gilroy-Medium.woff2"),
+url("fonts/gilroy-Medium.woff");
+font-weight: 600;
+}
 *{
-    font-family:'Gilroy'
+font-family:'Gilroy'
 }
 html{
-    scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
 .wrapper{
-    margin: 0 auto;
-    overflow: hidden;
-    font-family: 'Gilroy';
-    max-width: 1000px;
-    padding: 33px 30px;
+margin: 0 auto;
+overflow: hidden;
+font-family: 'Gilroy';
+max-width: 1000px;
+padding: 33px 30px;
 }
 h1, h2{
-   color: #070707; 
-   font-family:'Gilroy';
-   font-weight: 700;
-   }
+color: #070707; 
+font-family:'Gilroy';
+font-weight: 700;
+}
 h2{
-    text-align: center;
-    font-size: 34px;
-    line-height: 42px;
+text-align: center;
+font-size: 34px;
+line-height: 42px;
 }
 p{
-    color: #070707; 
-    font-family:'Gilroy'; 
-    font-size: 18px; 
-    line-height: 22px;
-    text-align: center;
-    font-weight: 600;
-    }
+color: #070707; 
+font-family:'Gilroy'; 
+font-size: 18px; 
+line-height: 22px;
+text-align: center;
+font-weight: 600;
+}
 nav{
-    border-bottom:1px solid #828282;
-    padding-bottom: 33px;
-    margin: 0 auto;
-    }
-    
+ border-bottom:1px solid #828282;
+ padding-bottom: 33px;
+ margin: 0 auto;
+}
 .menu{
-   display:flex;
-    align-items: center ;
-    justify-content: space-between;
-    list-style: none;
-    }
-   
- .menu_link {
-    color: #828282;
-    font-family:'Gilroy';
-    font-size: 18px;
-    text-decoration: none;
-    transition: 0.3s;
-    }
-    .menu_link:hover{
-        color: #070707;
-      
+display:flex;
+align-items: center ;
+justify-content: space-between;
+list-style: none;
+}
+.menu_link {
+color: #828282;
+font-family:'Gilroy';
+font-size: 18px;
+text-decoration: none;
+transition: 0.3s;
+}
+.menu_link:hover{
+color: #070707;
 }
 .header_info{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-top: 50px;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+margin-top: 50px;
 }
 .header_info h1{
 font-size: 47px;
@@ -83,261 +78,254 @@ margin-bottom: 30px;
 margin-bottom: 50px;
 }
 main a{
-    color: #070707;
+color: #070707;
 }
 .main_aboutMe{
-    background: #F6F6F6;
-    margin-top: 104px;
+background: #F6F6F6;
+margin-top: 104px;
 }
-
 .main_aboutMe h2{
-    padding-top: 120px;
-    }
-    .main_aboutMe_info{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-top: 18px;
-        padding-bottom: 107px;
-    }
-    .main_aboutMe_info p{
-        margin-bottom: 18px;
-    }
-    .main_skills{
-        margin-top: 91px;
-      }
-    .main_skills h2{
-        margin-bottom: 69px;
-    }
-    .main_skiils_icons{
-        margin-top: 83px;
-       display: flex;
-       align-items: center;
-       justify-content: space-between;
-    }
-    .main_skiils_icons_pos{
-      display: flex;
-      flex-direction: column;
-      align-items: center; 
-      justify-content: space-around;
-    }
-    .star{
-        display: flex;
-        justify-content: space-between;
-        gap: 9px;
-        margin-top: 40px;
-        }
-        .star2{
-            display: flex;
-            justify-content: space-between;
-            gap: 9px;
-            margin-top: 57px;
-    }
-    .main_skiils_icons_pos p{
-        font-size: 14px;
-        line-height: 17px;
-        text-align: center;
-        color: #828282;
-        margin-top: 24px;
-    }
-    .main_portfolio{
-        background-color:#F6F6F6;
-        margin-top:110px ;
-        padding-bottom: 96px;
-    }
-    .main_portfolio h2{
-        padding-top: 113px;
-    }
-    .main_portfolio_levi{
-        margin-top: 47px;
-    }
-    .main_portfolio p{
-        margin-top:43px;
-     }
-     .main_portfolio_pos{
-       margin-top: 99px; 
-     }
-     .footer_info{
-        margin-top:114px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-     }
-     .footer_info p{
-        margin-top: 20px;
-     }
-     button{
-        width: 166px;
-        height: 38px;
-        background-color: #070707;
-        border-radius: 30px;
-        color:#ffffff ;
-        font-family: 'Gilroy';
-        font-size: 18px;
-        line-height: 22px;
-        text-align: center;
-        margin-top:29px ;
-        cursor: pointer;
-    }
-    .cotacts_icons{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 70px;
-        margin-top: 80px;
-    }
-    .footer_info_p{
-       margin-top: 45px; 
-       font-size: 14px;
-      line-height: 17px;
-      color: #828282;
-     }
-     #menu_toggle {
-        opacity: 0;
-      }
-      /* стилизуем кнопку */
-      .menu_btn {
-        display: flex; /* используем flex для центрирования содержимого */
-        align-items: center;  /* центрируем содержимое кнопки */
-        position: fixed;
-        margin-top: 64px;
-        margin-right: 10px;
-        top: 20px;
-        right: 20px;
-        width: 26px;
-        height: 26px;
-        cursor: pointer;
-        z-index: 1;
-      }
-      /* добавляем "гамбургер" */
-      
-    @media (max-width: 700px){
-            .main_skiils_icons{
-                flex-direction: column;
-                gap: 80px;
-            }
-    } 
-    @media (max-width: 480px){
-        .menu_btn > span,
-      .menu_btn > span::before,
-      .menu_btn > span::after {
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        background-color: #616161;
-      }
-      .menu_btn > span::before {
-        content: '';
-        top: -8px;
-      }
-      .menu_btn > span::after {
-        content: '';
-        top: 8px;
-      }
-      .menu {
-        display: block;
-        position: fixed;
-        visibility: hidden;
-        top: 0;
-        right: -100%;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 80px 0;
-        text-align: left;
-        background-color: #ffffff;
-        }
-      /* элементы меню */
-      .menu_link {
-        display: block;
-        margin-top: 66px;
-        margin-left: 29px;
-        font-size: 34px;
-        line-height: 42px;
-        
-      }
-      
-      #menu_toggle:checked ~ .menu_btn > span {
-        transform: rotate(45deg);
-      }
-      #menu_toggle:checked ~ .menu_btn > span::before {
-        top: 0;
-        transform: rotate(0);
-      }
-      #menu_toggle:checked ~ .menu_btn > span::after {
-        top: 0;
-        transform: rotate(90deg);
-      }
-      #menu_toggle:checked ~ .menu {
-        visibility: visible;
-        right: 0;
-      }
-      .wrapper{
-      margin: 0 auto;
-      overflow: hidden;
-      max-width: 480px;
-      padding: 0px 30px;
-      }
-      nav{
-        border-bottom: none;
-      }
-      .header_info{
-        display: block;
-        margin: 0px;
-        }
-        .header_info p{
-            text-align: left;
-            margin-top: 23px;
-            }
-            .main_aboutMe{
-                margin-top: 83px;
-            }
-            .main_aboutMe h2{
-                padding-top: 81px;
-                }
-               
-            .main_aboutMe_info{
-                margin:30px auto 76px auto;
-            }
-
-            .main_skills{
-                margin-top:83px;
-              }
-              .main_skills h2{
-                margin-bottom:50px;
-            }
-            .main_portfolio{
-                margin-top:98px ;
-                padding-bottom: 80px;
-            }
-            .main_portfolio h2{
-                padding-top: 81px;
-            }
-            .main_portfolio_levi{
-                margin-top: 65px;
-            }
-            .main_portfolio p{
-                margin-top:35px;
-             }
-             .footer_info{
-                margin-top:82px;
-             }
-             .footer_info p{
-                margin-top: 27px;
-            }
-            button{
-                width: 316px;
-                height: 42px;
-                background-color: #000000;
-                border-radius: 50px;
-                margin-top:52px ;
-           }
-           .cotacts_icons{
-            gap:76px;
-            margin-top:48px ;
-           }
-           .footer_info p{
-            margin-top: 49px;
+padding-top: 120px;
+}
+.main_aboutMe_info{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-top: 18px;
+padding-bottom: 107px;
+}
+.main_aboutMe_info p{
+margin-bottom: 18px;
+}
+.main_skills{
+margin-top: 91px;
+}
+.main_skills h2{
+margin-bottom: 69px;
+}
+.main_skiils_icons{
+margin-top: 83px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.main_skiils_icons_pos{
+display: flex;
+flex-direction: column;
+align-items: center; 
+justify-content: space-around;
+}
+.star{
+display: flex;
+justify-content: space-between;
+gap: 9px;
+margin-top: 40px;
+}
+.star2{
+display: flex;
+justify-content: space-between;
+gap: 9px;
+margin-top: 57px;
+}
+.main_skiils_icons_pos p{
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #828282;
+margin-top: 24px;
+}
+.main_portfolio{
+background-color:#F6F6F6;
+margin-top:110px ;
+padding-bottom: 96px;
+}
+.main_portfolio h2{
+padding-top: 113px;
+}
+.main_portfolio_levi{
+margin-top: 47px;
+}
+.main_portfolio p{
+margin-top:43px;
+}
+.main_portfolio_pos{
+margin-top: 99px; 
+}
+.footer_info{
+margin-top:114px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.footer_info p{
+margin-top: 20px;
+}
+button{
+width: 166px;
+height: 38px;
+background-color: #070707;
+border-radius: 30px;
+color:#ffffff ;
+font-family: 'Gilroy';
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+margin-top:29px ;
+cursor: pointer;
+}
+.cotacts_icons{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 70px;
+margin-top: 80px;
+}
+.footer_info_p{
+margin-top: 45px; 
+font-size: 14px;
+line-height: 17px;
+color: #828282;
+}
+#menu_toggle {
+opacity: 0;
+}
+.menu_btn {
+display: flex; 
+align-items: center; 
+position: fixed;
+margin-top: 64px;
+margin-right: 10px;
+top: 20px;
+right: 20px;
+width: 26px;
+height: 26px;
+cursor: pointer;
+z-index: 1;
+}
+@media (max-width: 700px){
+.main_skiils_icons{
+flex-direction: column;
+gap: 80px;
+}
+} 
+@media (max-width: 480px){
+.menu_btn > span,
+.menu_btn > span::before,
+.menu_btn > span::after {
+display: block;
+position: absolute;
+width: 100%;
+height: 2px;
+background-color: #616161;
+}
+.menu_btn > span::before {
+content: '';
+top: -8px;
+}
+.menu_btn > span::after {
+ content: '';
+ top: 8px;
+ }
+.menu {
+display: block;
+position: fixed;
+visibility: hidden;
+top: 0;
+right: -100%;
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 80px 0;
+text-align: left;
+background-color: #ffffff;
+}
+.menu_link {
+ display: block;
+margin-top: 66px;
+margin-left: 29px;
+font-size: 34px;
+line-height: 42px;     
+}
+#menu_toggle:checked ~ .menu_btn > span {
+transform: rotate(45deg);
+}
+#menu_toggle:checked ~ .menu_btn > span::before {
+top: 0;
+transform: rotate(0);
+}
+ #menu_toggle:checked ~ .menu_btn > span::after {
+top: 0;
+transform: rotate(90deg);
+}
+#menu_toggle:checked ~ .menu {
+visibility: visible;
+right: 0;
+}
+.wrapper{
+ margin: 0 auto;
+overflow: hidden;
+max-width: 480px;
+padding: 0px 30px;
+color:#000000;
+}
+nav{
+border-bottom: none;
+}
+.header_info{
+display: block;
+margin: 0px;
+}
+.header_info p{
+text-align: left;
+margin-top: 23px;
+}
+.main_aboutMe{
+margin-top: 83px;
+}
+.main_aboutMe h2{
+padding-top: 81px;
+}
+.main_aboutMe_info{
+margin:30px auto 76px auto;
+}
+.main_skills{
+margin-top:83px;
+}
+.main_skills h2{
+margin-bottom:50px;
+}
+.main_portfolio{
+margin-top:98px ;
+padding-bottom: 80px;
+}
+.main_portfolio h2{
+padding-top: 81px;
+}
+.main_portfolio_levi{
+ margin-top: 65px;
+}
+ .main_portfolio p{
+margin-top:35px;
+}
+ .footer_info{
+margin-top:82px;
+}
+.footer_info p{
+margin-top: 27px;
+}
+button{
+width: 316px;
+height: 42px;
+background-color: #000000;
+border-radius: 50px;
+margin-top:52px ;
+}
+.cotacts_icons{
+gap:76px;
+margin-top:48px ;
+}
+.footer_info p{
+margin-top: 49px;
+}
 }
       
