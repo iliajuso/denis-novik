@@ -22,7 +22,7 @@ margin: 0 auto;
 overflow: hidden;
 font-family: 'Gilroy';
 max-width: 1000px;
-padding: 33px 30px;
+padding: 0 30px;
 }
 h1, h2{
 color: #070707; 
@@ -42,6 +42,7 @@ line-height: 22px;
 text-align: center;
 font-weight: 600;
 }
+
 nav{
  border-bottom:1px solid #828282;
  padding-bottom: 33px;
@@ -83,23 +84,21 @@ color: #070707;
 .main_aboutMe{
 background: #F6F6F6;
 margin-top:104px ;
+padding:120px 0 107px ;
 }
-.main_aboutMe h2{
-padding-top: 120px;
-}
+
 .main_aboutMe_info{
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 margin-top: 18px;
-padding-bottom: 107px;
 }
 .main_aboutMe_info p{
 margin-bottom: 18px;
 }
 .main_skills{
-margin-top: 91px;
-margin-bottom: 110px;
+padding-top: 91px;
+padding-bottom: 110px;
 }
 .main_skills p{
 margin-top: 69px;
@@ -137,10 +136,8 @@ margin-top: 24px;
 }
 .main_portfolio{
 background-color:#F6F6F6;
-padding-bottom: 96px;
-}
-.main_portfolio h2{
 padding-top: 113px;
+padding-bottom: 96px;
 }
 .main_portfolio_levi{
 margin-top: 47px;
@@ -151,8 +148,11 @@ margin-top:43px;
 .main_portfolio_pos{
 margin-top: 99px; 
 }
+.footer_pad{
+    padding-top: 114px;
+    padding-bottom: 123px;
+}
 .footer_info{
-padding-top:114px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -280,26 +280,22 @@ text-align: left;
 margin-top: 23px;
 }
 .main_aboutMe{
-margin-top: 83px;
-}
-.main_aboutMe h2{
 padding-top: 81px;
+padding-bottom: 76px;
 }
-.main_aboutMe_info{
-margin:30px auto 76px auto;
+.main_aboutMe_info{   
+margin-top:30px ;
 }
 .main_skills{
-margin-top:83px;
+padding-top:83px;
+padding-bottom: 98px;
 }
 .main_skills h2{
 margin-bottom:50px;
 }
 .main_portfolio{
-margin-top:98px ;
+padding-top:81px ;
 padding-bottom: 80px;
-}
-.main_portfolio h2{
-padding-top: 81px;
 }
 .main_portfolio_levi{
  margin-top: 65px;
@@ -307,11 +303,9 @@ padding-top: 81px;
  .main_portfolio p{
 margin-top:35px;
 }
-footer{
-    margin-bottom: 30px;
-}
- .footer_info{
-margin-top:82px;
+.footer_pad{
+padding-top: 82px;
+padding-bottom:35px ;
 }
 .footer_info p{
 margin-top: 27px;
