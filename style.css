@@ -17,7 +17,7 @@ font-family:'Gilroy'
 html{
 scroll-behavior: smooth;
 }
-.wrapper{
+.container{
 margin: 0 auto;
 overflow: hidden;
 font-family: 'Gilroy';
@@ -82,7 +82,7 @@ color: #070707;
 }
 .main_aboutMe{
 background: #F6F6F6;
-margin-top: 104px;
+margin-top:104px ;
 }
 .main_aboutMe h2{
 padding-top: 120px;
@@ -99,9 +99,10 @@ margin-bottom: 18px;
 }
 .main_skills{
 margin-top: 91px;
+margin-bottom: 110px;
 }
-.main_skills h2{
-margin-bottom: 69px;
+.main_skills p{
+margin-top: 69px;
 }
 .main_skiils_icons{
 margin-top: 83px;
@@ -136,7 +137,6 @@ margin-top: 24px;
 }
 .main_portfolio{
 background-color:#F6F6F6;
-margin-top:110px ;
 padding-bottom: 96px;
 }
 .main_portfolio h2{
@@ -152,7 +152,7 @@ margin-top:43px;
 margin-top: 99px; 
 }
 .footer_info{
-margin-top:114px;
+padding-top:114px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -202,13 +202,13 @@ height: 26px;
 cursor: pointer;
 z-index: 1;
 }
-@media (max-width: 700px){
+@media (max-width: 768px){
 .main_skiils_icons{
 flex-direction: column;
 gap: 80px;
 }
 } 
-@media (max-width: 480px){
+@media (max-width: 576px){
 .menu_btn > span,
 .menu_btn > span::before,
 .menu_btn > span::after {
@@ -261,7 +261,7 @@ transform: rotate(90deg);
 visibility: visible;
 right: 0;
 }
-.wrapper{
+.container{
  margin: 0 auto;
 overflow: hidden;
 max-width: 480px;
@@ -307,6 +307,9 @@ padding-top: 81px;
  .main_portfolio p{
 margin-top:35px;
 }
+footer{
+    margin-bottom: 30px;
+}
  .footer_info{
 margin-top:82px;
 }
@@ -321,7 +324,7 @@ border-radius: 50px;
 margin-top:52px ;
 }
 .cotacts_icons{
-gap:76px;
+gap: 56px;
 margin-top:48px ;
 }
 .footer_info p{
